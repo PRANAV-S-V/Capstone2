@@ -68,19 +68,32 @@ html{
     height: 27rem
 }
 .hobby-image{
-    width: 15em;
-    height: 15em;
+    width: 23em;
+    height: 23em;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1105px) {
 
     .hobby-image{
-        width: 11em;
-        height: 11em;
+        width: 15em;
+        height: 15em;
+    }
+}
+.face-design{
+    height: 400px;
+    width: 400px;
+    color: white;
+    
+}
+@media screen and (max-width: 722px) {
+
+    .hobby-image{
+        width: 10em;
+        height: 10em;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 580px) {
 
     .hobby-image{
         width: 8em;
@@ -88,6 +101,18 @@ html{
     }
 }
 
+@media screen and (max-width: 376px) {
+
+    .hobby-image{
+        width: 6em;
+        height: 6em;
+    }
+
+    .face-design{
+        height: 150px;
+        width: 150px;
+    }
+}
 #body-quote{
 
     padding-bottom: 8rem;
