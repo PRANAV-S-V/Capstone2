@@ -1,2 +1,2 @@
 # Capstone2
-my capstone project - 2.
+my capstone project - 2..
